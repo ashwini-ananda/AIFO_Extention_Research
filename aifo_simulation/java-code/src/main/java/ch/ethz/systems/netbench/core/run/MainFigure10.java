@@ -113,7 +113,7 @@ public class MainFigure10 {
                 , "second_transport_layer=udp", "window_size=20", "output_port_max_size_packets=1000", "link_bandwidth_bit_per_ns=1", "sample_count=15", "k_value=0.1"});
 
         /* Analyze */
-        MainFromProperties.runCommand("python3 projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload_q_len_1_4/analyze.py", true);
+        MainFromProperties.runCommand("python projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload_q_len_1_4/analyze.py", true);
 
     }
 }

@@ -96,7 +96,7 @@ public class SimulationLogger {
      * @return  Full run folder path
      */
     public static String getRunFolderFull() {
-        return baseDir + "/" + runFolderName;
+        return baseDir + "\\" + runFolderName;
     }
 
     /**
@@ -153,7 +153,7 @@ public class SimulationLogger {
             new File(getRunFolderFull()).mkdirs();
 
             // Copy console output to the run folder
-            FileOutputStream fosOS = new FileOutputStream(getRunFolderFull() + "/console.txt");
+            FileOutputStream fosOS = new FileOutputStream(getRunFolderFull() + "\\console.txt");
             TeeOutputStream customOutputStreamOut = new TeeOutputStream(System.out, fosOS);
             TeeOutputStream customOutputStreamErr = new TeeOutputStream(System.err, fosOS);
             underlyingFileOutputStream = fosOS;
@@ -218,7 +218,7 @@ public class SimulationLogger {
     private static BufferedWriter openWriter(String logFileName) {
         try {
             return new BufferedWriter(
-                    new FileWriter(getRunFolderFull() + "/" + logFileName)
+                    new FileWriter(getRunFolderFull() + "\\" + logFileName)
             );
         } catch (IOException e) {
             throw new LogFailureException(e);
@@ -595,7 +595,7 @@ public class SimulationLogger {
      */
     private static void copyFileToRunFolder(String fileName) {
         System.out.println("Copying file \"" + fileName + "\" to run folder...");
-        MainFromProperties.runCommand("cp " + fileName + " " + getRunFolderFull(), false);
+        // MainFromProperFties.runCommand("copy " + fileName + " " + getRunFolderFull(), false);
     }
 
     /**
@@ -606,7 +606,7 @@ public class SimulationLogger {
      */
     public static void copyFileToRunFolder(String fileName, String newFileName) {
         System.out.println("Copying file \"" + fileName + "\" to run folder using new file name \"" + newFileName + "\"...");
-        MainFromProperties.runCommand("cp " + fileName + " " + getRunFolderFull() + "/" + newFileName, false);
+        // MainFromProperties.runCommand("copy " + fileName + " " + getRunFolderFull() + "\\" + newFileName, false);
     }
 
     /**

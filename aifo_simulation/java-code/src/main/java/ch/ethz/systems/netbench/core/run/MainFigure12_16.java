@@ -16,11 +16,11 @@ public class MainFigure12_16 {
      */
     public static void main(String args[]) {
         SelfDefinedFlows.setIsSDFTrue();
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/PIFO.properties", "second_transport_layer=udp", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false"});
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/SPPIFO.properties", "second_transport_layer=udp", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false"});
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/AIFO.properties"
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\PIFO.properties", "second_transport_layer=udp", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false"});
+        // MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\SPPIFO.properties", "second_transport_layer=udp", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false"});
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\AIFO.properties"
                 , "second_transport_layer=udp", "window_size=20", "sample_count=15", "output_port_max_size_packets=100", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false", "k_value=0.1"});
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/TCP.properties", "second_transport_layer=udp", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false", "transport_layer=pfabric"});
+        // MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\TCP.properties", "second_transport_layer=udp", "link_bandwidth_bit_per_ns=1", "enable_inversions_tracking=false", "transport_layer=pfabric"});
         SelfDefinedFlows.setIsSDFFalse();
 
         MainFromProperties.runCommand("python plot_received.py", true); //figure plots

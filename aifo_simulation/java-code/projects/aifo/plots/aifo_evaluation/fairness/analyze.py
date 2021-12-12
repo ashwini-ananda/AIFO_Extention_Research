@@ -23,7 +23,7 @@ if __name__ == '__main__':
     row = 0
 
     for x in lambdas:
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -32,7 +32,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -41,7 +41,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -50,7 +50,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -59,7 +59,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -68,7 +68,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     row = 0
 
     for x in lambdas:
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -115,7 +115,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -124,7 +124,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -133,7 +133,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -142,7 +142,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -151,7 +151,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -188,7 +188,7 @@ if __name__ == '__main__':
     row = 0
 
     for x in lambdas:
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -197,7 +197,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -206,7 +206,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -215,7 +215,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -224,7 +224,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -233,7 +233,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -273,7 +273,7 @@ if __name__ == '__main__':
     row = 0
 
     for x in lambdas:
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/TCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -282,7 +282,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/DCTCP/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -291,7 +291,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -300,7 +300,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/SPPIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -309,7 +309,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/PIFOWFQ_32/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -318,7 +318,7 @@ if __name__ == '__main__':
                 break
         r.close()
 
-        file = "temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
+        file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/"+str(x)+"/AIFOWFQ/analysis/flow_completion.statistics"
         r = open(file, 'r')
         lines = r.readlines()
         for i, line in enumerate(lines):
@@ -359,7 +359,7 @@ if __name__ == '__main__':
     fct_200KB1MB_99th = [0,0,0,0,0,0]
     fct_geq_2MB_99th = [0,0,0,0,0,0]
 
-    r = open("temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/TCP/analysis/flow_completion.statistics", 'r')
+    r = open("C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/TCP/analysis/flow_completion.statistics", 'r')
     lines = r.readlines()
     print('start')
     for i, line in enumerate(lines):
@@ -397,7 +397,7 @@ if __name__ == '__main__':
                 fct_geq_2MB_99th[0]=line.split("=")[1].split("\n")[0]
     r.close()
 
-    r = open("temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/DCTCP/analysis/flow_completion.statistics", 'r')
+    r = open("C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/DCTCP/analysis/flow_completion.statistics", 'r')
     lines = r.readlines()
     for i, line in enumerate(lines):
         if "mean_fct_ms" in line:
@@ -433,7 +433,7 @@ if __name__ == '__main__':
                 fct_geq_2MB_99th[1]=line.split("=")[1].split("\n")[0]
     r.close()
 
-    r = open("temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/AFQ_32/analysis/flow_completion.statistics", 'r')
+    r = open("C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/AFQ_32/analysis/flow_completion.statistics", 'r')
     lines = r.readlines()
     for i, line in enumerate(lines):
         if "mean_fct_ms" in line:
@@ -469,7 +469,7 @@ if __name__ == '__main__':
                 fct_geq_2MB_99th[2]=line.split("=")[1].split("\n")[0]
     r.close()
 
-    r = open("temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/SPPIFOWFQ_32/analysis/flow_completion.statistics", 'r')
+    r = open("C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/SPPIFOWFQ_32/analysis/flow_completion.statistics", 'r')
     lines = r.readlines()
     for i, line in enumerate(lines):
         if "mean_fct_ms" in line:
@@ -505,7 +505,7 @@ if __name__ == '__main__':
                 fct_geq_2MB_99th[3]=line.split("=")[1].split("\n")[0]
     r.close()
 
-    r = open("temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/PIFOWFQ_32/analysis/flow_completion.statistics", 'r')
+    r = open("C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/PIFOWFQ_32/analysis/flow_completion.statistics", 'r')
     lines = r.readlines()
     for i, line in enumerate(lines):
         if "mean_fct_ms" in line:
@@ -540,7 +540,7 @@ if __name__ == '__main__':
             elif line.split("=")[0] == "geq_2MB_99th_fct_ms":
                 fct_geq_2MB_99th[4]=line.split("=")[1].split("\n")[0]
 
-    r = open("temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/AIFOWFQ/analysis/flow_completion.statistics", 'r')
+    r = open("C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/fairness/web_search_workload/14150/AIFOWFQ/analysis/flow_completion.statistics", 'r')
     lines = r.readlines()
     for i, line in enumerate(lines):
         if "mean_fct_ms" in line:

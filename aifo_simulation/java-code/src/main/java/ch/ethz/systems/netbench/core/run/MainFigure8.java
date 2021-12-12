@@ -89,7 +89,7 @@ public class MainFigure8 {
         MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload_C_K/8900/AIFO_C20.properties"
                 , "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=89000", "window_size=20", "output_port_max_size_packets=20", "link_bandwidth_bit_per_ns=10", "sample_count=15", "run_folder_name=AIFO_C20_K0.7", "k_value=0.7"});
 
-        MainFromProperties.runCommand("python3 projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload_C_K/analyze.py", true);
+        MainFromProperties.runCommand("python projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload_C_K/analyze.py", true);
     }
 
 }

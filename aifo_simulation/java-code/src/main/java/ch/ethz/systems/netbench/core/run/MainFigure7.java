@@ -10,7 +10,7 @@ public class MainFigure7 {
 
     public static void main(String args[]) {
 
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/AIFO.properties"
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\AIFO.properties"
         , "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "window_size=20", "sample_count=15", "output_port_max_size_packets=20", "link_bandwidth_bit_per_ns=10", "k_value=0.1"});
         MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/5200/AIFO.properties"
         , "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=52000", "window_size=20", "sample_count=15", "output_port_max_size_packets=20", "link_bandwidth_bit_per_ns=10", "k_value=0.1"});
@@ -26,10 +26,10 @@ public class MainFigure7 {
         , "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=190000", "window_size=20", "sample_count=15", "output_port_max_size_packets=20", "link_bandwidth_bit_per_ns=10", "k_value=0.1"});
 
 
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/DCTCP.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/TCP.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/PIFO.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
-        MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/3600/SPPIFO.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\DCTCP.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\TCP.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\PIFO.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
+        MainFromProperties.main(new String[]{"C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\3600\\SPPIFO.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=36000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
 
         MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/5200/DCTCP.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=52000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
         MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/5200/TCP.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=52000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
@@ -62,6 +62,6 @@ public class MainFigure7 {
         MainFromProperties.main(new String[]{"projects/aifo/runs/aifo_evaluation/pFabric/web_search_workload/19000/SPPIFO.properties", "second_transport_layer=udp", "traffic_lambda_flow_starts_per_s=190000", "link_bandwidth_bit_per_ns=10", "enable_inversions_tracking=false"});
 
         /* Analyze and plot */
-        MainFromProperties.runCommand("python3 projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload/analyze.py", true);
+        MainFromProperties.runCommand("python C:\\Users\\14129\\College\\WAN\\AIFO\\aifo_simulation\\java-code\\projects\\aifo\\runs\\aifo_evaluation\\pFabric\\web_search_workload\\analyze.py", true);
     }
 }

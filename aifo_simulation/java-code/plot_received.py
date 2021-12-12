@@ -3,11 +3,12 @@ import matplotlib.pyplot as plt
 import numpy
 import shutil, os
 
-name = ["PIFO", "SPPIFO", "AIFO", "TCP"]
+# name = ["PIFO", "SPPIFO", "AIFO", "TCP"]
+name = ["PIFO", "AIFO"]
 
 # move all temps into runs
 for x in name:
-    src_file = "temp/aifo/aifo_evaluation/pFabric/web_search_workload/3600/"+x+"/rank_at_10.log"
+    src_file = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/pFabric/web_search_workload/3600/"+x+"/rank_at_10.log"
     dest_file = 'projects/aifo/plots/aifo_evaluation/selfDefinedFlows/' + x + ".dat"
     shutil.copy(src_file, dest_file)
 
@@ -17,7 +18,7 @@ for x in name:
 
 # figure 16
 for x in name:
-    pat = "temp/aifo/aifo_evaluation/pFabric/web_search_workload/3600/"+x+"/rank_at_10.log"
+    pat = "C:/Users/14129/AppData/Local/Temp/aifo/aifo_evaluation/pFabric/web_search_workload/3600/"+x+"/rank_at_10.log"
     df = pd.read_csv(pat, delim_whitespace=True, header=0)
     plt.figure()
     plt.title(x)

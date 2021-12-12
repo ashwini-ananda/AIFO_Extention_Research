@@ -72,6 +72,6 @@ public class MainFigure9 {
 
 
         /* Analyze and plot */
-        MainFromProperties.runCommand("python3 projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload_w_sr/analyze.py", true);
+        MainFromProperties.runCommand("python projects/aifo/plots/aifo_evaluation/pFabric/web_search_workload_w_sr/analyze.py", true);
     }
 }
